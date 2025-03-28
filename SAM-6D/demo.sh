@@ -6,8 +6,7 @@ export OUTPUT_DIR=/content/SAM-6D/SAM-6D/Data/Example/outputs
 
 # Render CAD templates
 cd Render
-blenderproc run render_custom_templates.py --output_dir /content/SAM-6D/SAM-6D/Data/Example/outputs/ --cad_path /content/SAM-6D/SAM-6D/Data/Example/obj_000005.ply #--colorize True 
-
+blenderproc run render_custom_templates.py --output_dir $OUTPUT_DIR --cad_path $CAD_PATH #--colorize True 
 
 # Run instance segmentation model
 export SEGMENTOR_MODEL=sam
