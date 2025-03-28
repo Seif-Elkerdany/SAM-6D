@@ -1,7 +1,7 @@
-export CAD_PATH=./SAM-6D/SAM-6D/Data/Example/obj_000005.ply    # path to a given cad model(mm)
-export RGB_PATH=./SAM-6D/SAM-6D/Data/Example/rgb.png           # path to a given RGB image
-export DEPTH_PATH=./SAM-6D/SAM-6D/Data/Example/depth.png       # path to a given depth map(mm)
-export CAMERA_PATH=./SAM-6D/SAM-6D/Data/Example/camera.json    # path to given camera intrinsics
+export CAD_PATH=./SAM-6D/SAM-6D/Data/Example/obj_000020.ply    # path to a given cad model(mm)
+export RGB_PATH=./SAM-6D/SAM-6D/Data/Example/000020.jpg          # path to a given RGB image
+export DEPTH_PATH=./SAM-6D/SAM-6D/Data/Example/000020_depth.png       # path to a given depth map(mm)
+export CAMERA_PATH=./SAM-6D/SAM-6D/Data/Example/camera1.json    # path to given camera intrinsics
 export OUTPUT_DIR=./SAM-6D/SAM-6D/Data/Example/outputs 
 
 # Render CAD templates
