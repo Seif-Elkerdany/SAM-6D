@@ -5,8 +5,8 @@ export CAMERA_PATH=/content/SAM-6D/SAM-6D/Data/Example/camera1.json    # path to
 export OUTPUT_DIR=/content/SAM-6D/SAM-6D/Data/Example/outputs 
 
 # Render CAD templates
-#cd Render
-#blenderproc run render_custom_templates.py --output_dir $OUTPUT_DIR --cad_path $CAD_PATH #--colorize True 
+cd Render
+blenderproc run render_custom_templates.py --output_dir $OUTPUT_DIR --cad_path $CAD_PATH #--colorize True 
 
 # Run instance segmentation model
 export SEGMENTOR_MODEL=sam
